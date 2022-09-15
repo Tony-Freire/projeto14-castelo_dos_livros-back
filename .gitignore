@@ -1,0 +1,16 @@
+# Veja https://help.github.com/articles/ignoring-files/ para saber mais sobre como ignorar arquivos.
+
+# dependências
+/ node_modules
+/ .pnp
+.pnp.js
+
+# teste
+/ cobertura
+
+# produção
+/ construir
+
+npm-debug.log *
+yarn-debug.log *
+fio-erro.log *
