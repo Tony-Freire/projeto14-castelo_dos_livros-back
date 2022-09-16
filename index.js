@@ -17,4 +17,4 @@ server.post('/sign', CreateUser)
 server.post('/sign-up', SignUp)
 
 
-server.listen(5000, () => console.log("The magic happens on port 5000"))
+server.listen(process.env.PORT, () => console.log("The magic happens on port" + process.env.PORT))
