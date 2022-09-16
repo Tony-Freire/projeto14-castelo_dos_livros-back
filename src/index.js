@@ -33,7 +33,7 @@ try {
     const users = await db.collection('test').find().toArray();
     res.send(users)
 } catch (error) {
-    console.log(error);
+    return res.send('error no catch')
 }
     
 

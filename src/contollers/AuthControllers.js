@@ -62,7 +62,7 @@ async function SignUp(req, res){
             }
 
         } catch (error) {
-            console.log(error.message)
+            res.send('error no catch')
          }
 
         res.send("ok");
