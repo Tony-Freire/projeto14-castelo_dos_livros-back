@@ -20,7 +20,7 @@ async function CreateUser(req, res){
             }
             
         } catch (error) {
-            console.log(error.message)
+          return res.send("erro ao conectar com o banco!")
         }
 
         const passwordHash = bcrypt.hashSync(password, 12)
