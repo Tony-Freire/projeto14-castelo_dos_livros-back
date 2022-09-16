@@ -2,15 +2,6 @@
 
 # dependências
 / node_modules
-/ .pnp
-.pnp.js
 
-# teste
-/ cobertura
+.env
 
-# produção
-/ construir
-
-npm-debug.log *
-yarn-debug.log *
-fio-erro.log *

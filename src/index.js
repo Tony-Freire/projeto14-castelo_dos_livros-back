@@ -1,7 +1,7 @@
 import  express  from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { CreateUser, SignUp } from "./src/contollers/AuthControllers.js";
+import { CreateUser, SignUp } from "./contollers/AuthControllers.js";
 
 
 

@@ -12,7 +12,7 @@ try {
 }
 
 
-   const db = mongoClient.db('test-castelo_dos_livros') 
+   const db = mongoClient.db(process.env.MONGO_DATABASE) 
 
 
 export default db;
