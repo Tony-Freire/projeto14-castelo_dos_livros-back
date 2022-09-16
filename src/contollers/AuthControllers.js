@@ -63,10 +63,7 @@ async function SignUp(req, res){
 
         } catch (error) {
             console.log(error.message)
-        }
-
-        
-
+         }
 
         res.send("ok");
 
